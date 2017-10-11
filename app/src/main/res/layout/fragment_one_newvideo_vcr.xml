@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+
+    <com.juyikeji.yinhang.utils.luxiang.MovieRecorderView
+        android:id="@+id/movieRecorderView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"/>
+
+    <Button
+        android:id="@+id/shoot_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@mipmap/bg_movie_add_shoot"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="按住拍"
+        android:textColor="#ECEBF1"
+        android:layout_marginBottom="15dp"/>
+</RelativeLayout>

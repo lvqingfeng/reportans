@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--   
+    根标签为animation-list，其中oneshot代表着是否只展示一遍，设置为false会不停的循环播放动画  
+    根标签下，通过item标签对动画中的每一个图片进行声明  
+    android:duration 表示展示所用的该图片的时间长度  
+ -->
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false"
+    >
+
+    <item android:drawable="@mipmap/luyin_1" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_2" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_3" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_4" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_5" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_6" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_7" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_8" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_9" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_10" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_11" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_10" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_9" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_8" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_7" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_6" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_5" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_4" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_3" android:duration="100"></item>
+    <item android:drawable="@mipmap/luyin_2" android:duration="100"></item>
+</animation-list>

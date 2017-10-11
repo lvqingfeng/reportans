@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#f6f5f3</color>
+    <color name="gray2">#d1d0ce</color>
+    <color name="gray3">#f0f0f0</color>
+    <color name="gray4">#f7f8fa</color>
+    <color name="red">#e84c3d</color>
+    <color name="red2">#d83433</color>
+    <color name="org">#e17132</color>
+    <color name="green">#0f7ca3</color>
+    <color name="blue">#2867d1</color>
+    <color name="province_line_border">#C7C7C7</color>
+</resources>
